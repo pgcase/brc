@@ -20,18 +20,18 @@
 		ArSysOp - initial API and implementation
 -->
 <project
-	xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-	<modelVersion>4.0.0</modelVersion>
-	<artifactId>org.pgcase.brc.target</artifactId>
-	<packaging>eclipse-target-definition</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>org.pgcase.brc.features</artifactId>
+    <packaging>pom</packaging>
 
-	<parent>
-		<groupId>org.pgcase.brc</groupId>
-		<artifactId>org.pgcase.brc.parent</artifactId>
-		<version>0.0.1</version>
-		<relativePath>../../releng/org.pgcase.brc.parent</relativePath>
-	</parent>
+    <parent>
+        <groupId>org.pgcase.brc</groupId>
+        <artifactId>org.pgcase.brc.parent</artifactId>
+        <version>0.0.1</version>
+        <relativePath>../releng/org.pgcase.brc.parent</relativePath>
+    </parent>
 </project>

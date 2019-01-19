@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-	Copyright (c) 2018 ArSysOp
+	Copyright (c) 2019 ArSysOp
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -25,9 +25,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>ru.arsysop.passage.brc</groupId>
-	<artifactId>ru.arsysop.passage.brc.parent</artifactId>
-	<version>0.3.2</version>
+	<groupId>org.pgcase.brc</groupId>
+	<artifactId>org.pgcase.brc.parent</artifactId>
+	<version>0.0.1</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -54,8 +54,8 @@
 				<configuration>
 					<target>
 						<artifact>
-							<groupId>ru.arsysop.passage.brc</groupId>
-							<artifactId>ru.arsysop.passage.brc.target</artifactId>
+							<groupId>org.pgcase.brc</groupId>
+							<artifactId>org.pgcase.brc.target</artifactId>
 							<version>${project.parent.version}</version>
 						</artifact>
 					</target>

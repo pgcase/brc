@@ -22,8 +22,8 @@
 <site>
 	<feature
 		url="features/org.pgcase.brc.drivers.postgresql.feature_0.0.1.qualifier.jar"
-		id="ru.arsysop.passage.brc.license.feature"
-		version="0.0.1.qualifier" 
+		id="org.pgcase.brc.drivers.postgresql.feature"
+		version="0.0.1.qualifier"> 
 	</feature>
 	<category-def
 		name="org.pgcase.brc.category"
