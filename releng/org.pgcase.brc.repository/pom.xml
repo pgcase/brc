@@ -25,13 +25,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
+
 	<artifactId>org.pgcase.brc.repository</artifactId>
 	<packaging>eclipse-repository</packaging>
 
 	<parent>
 		<groupId>org.pgcase.brc</groupId>
 		<artifactId>org.pgcase.brc.parent</artifactId>
-		<version>0.0.1</version>
+		<version>0.1.0</version>
 		<relativePath>../../releng/org.pgcase.brc.parent</relativePath>
 	</parent>
 </project>
