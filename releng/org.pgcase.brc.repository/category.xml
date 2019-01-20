@@ -21,15 +21,15 @@
 -->
 <site>
 	<feature
-		url="features/org.pgcase.brc.drivers.postgresql.feature_0.0.1.qualifier.jar"
+		url="features/org.pgcase.brc.drivers.postgresql.feature_0.1.0.qualifier.jar"
 		id="org.pgcase.brc.drivers.postgresql.feature"
-		version="0.0.1.qualifier"> 
+		version="0.1.0.qualifier"> 
 	</feature>
 	<category-def
 		name="org.pgcase.brc.category"
-		label="Pgcase PostrgeSQL Driver">
+		label="PostrgeSQL JDBC Driver">
 		<description>
-			PostgreSQL JDBC Driver JDBC 
+			PostgreSQL JDBC Driver
 		</description>
 	</category-def>
 </site>

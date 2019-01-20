@@ -25,16 +25,22 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.pgcase.brc</groupId>
+
 	<artifactId>org.pgcase.brc.aggregator</artifactId>
-	<version>0.0.1</version>
 	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>org.pgcase.brc</groupId>
+		<artifactId>org.pgcase.brc.parent</artifactId>
+		<version>0.1.0</version>
+		<relativePath>../../releng/org.pgcase.brc.parent</relativePath>
+	</parent>
 
 	<modules>
 		<module>..\..\releng\org.pgcase.brc.target</module>
 		<module>..\..\bundles\org.pgcase.brc.drivers.postgresql</module>
 		<module>..\..\features\org.pgcase.brc.drivers.postgresql.feature</module>
-		
+
 		<module>..\..\releng\org.pgcase.brc.repository</module>
 	</modules>
 
