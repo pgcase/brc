@@ -3,7 +3,7 @@ Automatic-Module-Name: org.pgcase.postgresql.driver
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: org.pgcase.brc.drivers.postgresql
 Bundle-Version: 42.2.5.qualifier
-Bundle-Vendor: %Bundle-Version
+Bundle-Vendor: %Bundle-Vendor
 Bundle-Name: %Bundle-Name
 Bundle-Copyright: %Bundle-Copyright
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
@@ -43,3 +43,4 @@ Export-Package: org.postgresql,
  org.postgresql.translation,
  org.postgresql.util,
  org.postgresql.xa
+Eclipse-BundleShape: dir
